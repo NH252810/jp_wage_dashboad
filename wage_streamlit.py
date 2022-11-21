@@ -130,7 +130,7 @@ fig = px.bar(df_mean_categ,
 st.plotly_chart(fig)
 
 #データの出典元の記載
-st.text('出典'：RESAS（地域経済分析システム)')
+st.text('出典：RESAS（地域経済分析システム）')
 st.text('本結果はRESAS（地域経済分析システム）を加工して作成')
 
 #インタラクティブダッシュボードのデプロイ
